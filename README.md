@@ -8,6 +8,16 @@ Demo logins (password `123456`): customer `9000000003` · admin `9000000001` · 
 
 Node/Express + SQLite backend, React (Vite) frontend. Roles: customer, admin (owner), delivery.
 
+## Screenshots
+
+| Login | Customer: menu, subscription, orders |
+| --- | --- |
+| ![Login](docs/login.png) | ![Customer](docs/customer.png) |
+
+| Admin (owner) | Delivery (mobile) |
+| --- | --- |
+| ![Admin](docs/admin.png) | ![Delivery](docs/delivery.png) |
+
 ## Run
 
 ```bash
