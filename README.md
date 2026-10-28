@@ -1,5 +1,11 @@
 # Tiffin Service
 
+**Live demo:** https://tiffin-service-bluo.onrender.com
+
+Demo logins (password `123456`): customer `9000000003` · admin `9000000001` · delivery `9000000002`
+
+> Hosted on a free plan: the first load can take ~30–60 s while the server wakes up, and demo data resets on restart.
+
 Node/Express + SQLite backend, React (Vite) frontend. Roles: customer, admin (owner), delivery.
 
 ## Run
