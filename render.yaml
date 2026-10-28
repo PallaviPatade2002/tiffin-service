@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: tiffin-service
+    runtime: node
+    plan: free
+    buildCommand: cd frontend && npm install && npm run build && cd ../backend && npm install
+    startCommand: cd backend && node src/server.js
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: AUTO_SEED
+        value: "1"
+      - key: JWT_SECRET
+        generateValue: true
